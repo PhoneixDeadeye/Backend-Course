@@ -1,0 +1,19 @@
+### TEST GET / WEBSITE
+GET http://localhost:8383
+
+### TEST GET /DASHBOARD
+GET http://localhost:8383/dashboard
+
+### TEST GET /API/DATA
+GET http://localhost:8383/api/data
+
+### TEST POST /API/DATA FOR CREATING A NEW USER
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "name": "rohan"
+}
+
+### TEST DELETE /API/DATA
+DELETE http://localhost:8383/api/data
