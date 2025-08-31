@@ -42,3 +42,8 @@ Icon?
 
 # Windows system files
 Desktop.ini
+/generated/prisma
+
+# Docker Compose files
+*.yaml
+*.yml
